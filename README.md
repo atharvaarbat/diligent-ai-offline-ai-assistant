@@ -15,13 +15,13 @@ To use the AI Assistant, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-assistant.git
+   git clone https://github.com/atharvaarbat/diligent-ai-offline-ai-assistant.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ai-assistant
+   cd diligent-ai-offline-ai-assistant
    ```
 
 3. Install dependencies:
@@ -37,23 +37,17 @@ To use the AI Assistant, follow these steps:
 
 5. Configure the Ollama service:
 
-   - Open the `config.js` file.
-   - Update the `ollamaServiceUrl` with the URL where the Ollama service is running.
-
-   ```javascript
-   // config.js
-
-   const config = {
-     ollamaServiceUrl: 'http://localhost:ollama-port',
-   };
-
-   export default config;
-   ```
+   - Open terminal on your machine and run
+      ```bash
+      ollama pull [MODEL_NAME]
+      ```
+   - To see the list of supported models by ollama visit [offcial Website](https://ollama.com/library)
+   
 
 6. Start the application:
-
+   ###You can either start in node environment or run the application on electron (to create a executable file)
    ```bash
-   npm start
+   npm run dev
    ```
 
 ## Usage
@@ -62,7 +56,7 @@ To use the AI Assistant, follow these steps:
 2. Launch the application.
 3. Input the desired prompt and system prompt/context.
 4. Choose the preferred Language Model from the available options.
-5. Click on the "Generate" button to receive the AI-generated response.
+5. Click on the "Ask Diligent" button to receive the AI-generated response.
 
 ## Contributing
 
