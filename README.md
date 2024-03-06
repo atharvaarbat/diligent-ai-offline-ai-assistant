@@ -7,6 +7,12 @@ This project is an AI Assistant built using React and Electron, allowing users t
 - **Offline Operation:** The AI assistant functions without an internet connection, ensuring user privacy and convenience.
 - **Prompt Customization:** Users can input prompts and system prompts/context to tailor the AI responses based on their specific needs.
 - **Model Selection:** Choose from a variety of Language Models available through the locally hosted Ollama service to get responses tailored to different contexts.
+  
+## Screenshots
+
+![Screenshot 1](https://github.com/atharvaarbat/diligent-ai-offline-ai-assistant/blob/main/screenshots/Screenshot%202024-03-06%20160100.png))
+
+![Screenshot 2](https://github.com/atharvaarbat/diligent-ai-offline-ai-assistant/blob/main/screenshots/Screenshot%202024-03-06%20160347.png)
 
 ## Installation
 
